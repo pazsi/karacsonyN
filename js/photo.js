@@ -1,4 +1,4 @@
-import * as THREE from 'karacsonyN/js/three.module.js';
+import * as THREE from './karacsonyN/js/three.module.js';
 
 import { DDSLoader } from 'karacsonyN/js/loaders/DDSLoader.js';
 import { MTLLoader } from 'karacsonyN/js/loaders/MTLLoader.js';
