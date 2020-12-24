@@ -4,7 +4,7 @@ import { DDSLoader } from '/js/loaders/DDSLoader.js';
 import { MTLLoader } from '/js/loaders/MTLLoader.js';
 import { OBJLoader } from '/js/loaders/OBJLoader.js';
 
-let camera, scene, renderer, group, isMouseDown = false, stars, geometry, material, mouseX, numberOfImages = 20;
+let camera, scene, renderer, group, isMouseDown = false, stars, geometry, material, mouseX, numberOfImages = 4;
 
 function init() {
   scene = new THREE.Scene();
